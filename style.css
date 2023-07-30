@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  width: 70%;
+  height: 50%;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.card a {
+  color: white;
+}
+
+.choice {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.choice label {
+  text-size: 10px;
+}
+
+.intro {
+  display: block;
+}
+
+.create {
+  display: none;
+}
+
+.card-create {
+  width: 70%;
+  height: 50%;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.question-count {
+  display: none;
+}
+
+.questions {
+  display: none;
+}
+
+.card-create input {
+  margin-top: 15px;
+  padding-top: 8px;
+}
+
+.card-create button {
+  margin-top: 10px;
+}
+
+.complete {
+  display: none;
+}
+
+.quiz-id {
+  display: none;
+}
+
+.questions-take {
+  display: none;
+}
+
+.complete-take {
+  display: none;
+}
+
+input,
+button {
+  cursor: pointer;
+}
